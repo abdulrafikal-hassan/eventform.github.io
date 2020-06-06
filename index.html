@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form Layout</title>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="form">
+    <div class="title">
+        <h3>event registeration form</h3>
+    </div>
+    <div class="submit-form">
+        
+
+        <div class="inline-block">
+            <h4>name</h4>
+            <div class="fname">
+                <span>
+                    <input type="text" name="1stname">
+                    <p>first name</p>
+                </span>
+                <span>
+                    <input type="text" name="name">
+                    <p>last name</p>
+                </span>
+            </div>
+        </div>
+        
+
+        <div class="inline-block">
+            <h4>company</h4>
+            <input type="text">
+        </div>
+        
+
+        <div class="inline-block">
+            <h4>email</h4>
+            <input type="email" name="email">
+        </div>
+        
+        <div class="inline-block">
+            <h4>phone</h4>
+            <div class="phone">
+                <span>
+                <input type="number" name="area">
+                <p>area code</p>
+                </span>
+                <span>
+                    <input type="number" name="contact">
+                    <p>phone number</p>
+                </span>
+            </div>
+        </div>
+        
+        <label for="option">Subject</label>
+        <select name="option" id="option">
+            <option value="option1">Choose Option</option>
+            <option value="option2">Choose Option2</option>
+        </select>
+        
+        <div>
+        <h4>Are you an existing customer? </h4>
+        <input type="radio" name="state"> Yes
+        <input type="radio" name="state"> No
+        </div>
+
+        <input type="submit" class="submit" value="register">
+    </div>
+</div>
+   
+<footer> Made with ❤ by rafik & inspired by elle_hearts</footer>
+</body>
+</html>

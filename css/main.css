@@ -1,0 +1,105 @@
+body {
+    background: linear-gradient(to right, #3f70da, #ac19e6);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.form {
+    width: 600px;
+    padding: 4% 0;
+    margin: auto;
+}
+
+.submit-form {
+    position: relative;
+    z-index: 1;
+    background: #ffffff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title,h3 {
+    color: #ffffff;
+    background: #000000;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.inline-block {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+}
+
+span p {
+    text-transform: capitalize;
+}
+
+h4, label {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.fname,
+.phone {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+}
+
+.submit {
+    background-color: red;
+    border-radius: 5px;
+    width: 150px;
+    height: 60px;
+    margin: 35px 0px;
+    color: #ffffff;
+    border: 0px;
+    text-transform: uppercase;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+select {
+    width: 84%;
+    padding: 12px;
+    margin-left: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    background-color: rgba(201, 195, 195, 0.438);
+}
+
+.fname input[type=text] {
+    width: 95%;
+    margin-left: 35px;
+}
+
+.fname p,
+.phone p {
+    margin-left: 40px;
+}
+input[type=email] {
+    width: 85%;
+    margin-left: 35px;
+}
+
+input[type=number] {
+    width: 95%;
+    margin-left: 35px;
+}
+
+select {
+    width: 85%;
+    padding: 12px;
+}
